@@ -1,0 +1,23 @@
+# bird related data
+CUB_IMG_DIR=/home/alex/icml2016-master/data/cub/images
+CUB_META_DIR=/home/alex/icml2016-master/data/cub/cub_icml
+CUB_NET_TXT=/home/alex/icml2016-master/checkpoints/textEncoder/lm_sje_nc4_cub_hybrid_gru18_a1_c512_0.00070_1_10_trainvalids.txt_iter30000_old.t7
+CUB_NET_D=/home/alex/icml2016-master/checkpoints/cub/my64/cub_v2_nc4_cls0.5_int1.0_ngf128_ndf64_600_net_D.t7
+CUB_NET_G=/home/alex/icml2016-master/checkpoints/cub/64/cub_v2_nc4_cls0.5_int1.0_ngf128_ndf64_600_net_G.t7
+
+# flowers related data
+FLOWERS_IMG_DIR=/home/alex/icml2016-master/data/oxford102
+FLOWERS_META_DIR=/home/alex/icml2016-master/data/oxford102/flowers_icml
+FLOWERS_NET_TXT=/home/alex/icml2016-master/checkpoints/textEncoder/lm_sje_flowers_c10_hybrid_0.00070_1_10_trainvalids.txt_iter16400_old.t7
+FLOWERS_NET_D=/home/alex/icml2016-master/checkpoints/flowers/128/flowers_v2_nc4_cls0.5_int1.0_ngf128_ndf64_600_net_D.t7
+FLOWERS_NET_G=/home/alex/icml2016-master/checkpoints/flowers/128/flowers_v2_nc4_cls0.5_int1.0_ngf128_ndf64_600_net_G.t7
+
+# MS-COCO related data
+COCO_IMG_DIR=/home/alex/icml2016-master/data/coco/train2014
+COCO_META_DIR=/home/alex/icml2016-master/data/coco/train2014_ex_t7
+COCO_NET_TXT=/home/alex/icml2016-master/checkpoints/textEncoder/coco_gru18_bs64_cls0.5_ngf128_ndf128_a10_c512_80_net_T.t7
+COCO_NET_D=/home/alex/icml2016-master/checkpoints/coco/128/coco_nc3_nt128_nz100_bs16_cls0.5_ngf196_ndf196_200_net_D.t7
+COCO_NET_G=/home/alex/icml2016-master/checkpoints/coco/128/coco_nc3_nt128_nz100_bs16_cls0.5_ngf196_ndf196_200_net_G.t7
+
+# location to save checkpoints
+CHECKPOINT_DIR=/home/alex/icml2016-master/checkpoints
